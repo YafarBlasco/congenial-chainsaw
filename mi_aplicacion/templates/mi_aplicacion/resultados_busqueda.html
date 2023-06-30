@@ -1,0 +1,5 @@
+{% for resultado in resultados %}
+  <p>{{ resultado.campo1 }}</p>
+{% empty %}
+  <p>No se encontraron resultados.</p>
+{% endfor %}
